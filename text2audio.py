@@ -138,8 +138,8 @@ def main(text):
 
         # 测试时候在此处正确填写相关信息即可运行
 
-    wsParam = Ws_Param(APPID='58e61263', APISecret='dffb2043eeb3624eff11f4df0fd84d7d',
-                       APIKey='36d5946d3501388b423ce66f633385f9',
+    wsParam = Ws_Param(APPID='', APISecret='',
+                       APIKey='',
                        Text=text)
     websocket.enableTrace(False)
     wsUrl = wsParam.create_url()
